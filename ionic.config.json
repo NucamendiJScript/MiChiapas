@@ -1,0 +1,7 @@
+{
+  "name": "MiChiapas",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
