@@ -11,6 +11,10 @@ const routes: Routes = [
     path: 'menu',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
   },
+  {
+    path: 'centros-turistico',
+    loadChildren: () => import('./modulos/componentes/centros-turistico/centros-turistico.module').then( m => m.CentrosTuristicoPageModule)
+  },
 ];
 @NgModule({
   imports: [
