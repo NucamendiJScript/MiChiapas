@@ -1,17 +1,71 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+<ion-header>
+  <ion-toolbar style="text-align: center;">
+    <ion-buttons slot="start" style="padding-left: 6vw;">
+      <img style="width: 9.5vw ;" src="./assets/img/logo.png" alt="">
+    </ion-buttons>
+    <ion-buttons slot="end" style="padding-right: 7vw;">
+      <i style="font-size: 190%;" class="fas fa-user-circle"></i>
+    </ion-buttons>
+    <ion-title>Mi Chiapas</ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-row>
+    <ion-col size="12" style="text-align: center;">
+      <h2>
+        Bienvenido
+      </h2>
+    </ion-col>
+  </ion-row>
 
+  <ion-row style="padding-top: 5%;">
+    <ion-col size="6" class="contenedor">
+      <img style="width: 51vw;" src=" "
+        alt="">
+      <div class="centrado">Centros Turisticos</div>
+    </ion-col>
+    <ion-col size="6" class="contenedor">
+      <img style="width: 47vw;" src="https://cdn.civitatis.com/mexico/palenque/galeria/palenque-zona-arqueologica.jpg"
+        alt="">
+      <div class="centrado">Arqueologuia</div>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="6" class="contenedor">
+      <img style="width: 51vw;"
+        src="https://www.eluniversal.com.mx/sites/default/files/2018/09/17/canon_sumidero_chiapas_r.jpg" alt="">
+      <div class="centrado">Recorridos en lancha</div>
+    </ion-col>
+    <ion-col size="6" class="contenedor">
+      <img style="width: 47vw;"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSQRDJVdrCz8Yzxzs1-a2K061INqLZREmKMow&usqp=CAU"
+        alt="">
+      <div class="centrado">Pueblos Magicos</div>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="6" class="contenedor">
+      <img style="width: 51vw;"
+        src="https://www.mexicodesconocido.com.mx/wp-content/uploads/2019/03/CHIS_Puerto-Arista_G072011_5597_GEMD_AMmd.jpg"
+        alt="">
+      <div class="centrado">Rios y Playas</div>
+    </ion-col>
+    <ion-col size="6" class="contenedor">
+      <img style="width: 60vw;" src="https://cdn.pixabay.com/photo/2020/02/19/14/26/street-4862326_960_720.jpg" alt="">
+      <div class="centrado">Historias y leyendas</div>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="6" class="contenedor">
+      <img style="width: 51vw;" src="https://media-cdn.tripadvisor.com/media/photo-s/02/56/1b/97/las-pichanchas.jpg"
+        alt="">
+      <div class="centrado">Restaurantes</div>
+    </ion-col>
+    <ion-col size="6" class="contenedor">
+      <img style="width: 47vw;"
+        src="https://www.mundochiapas.com/images/hotel/319_870_HOTEL_PLAZAPALENQUE_PALENQUE1.jpg" alt="">
+      <div class="centrado">Hoteles y Cabañas</div>
+    </ion-col>
+  </ion-row>
   <app-explore-container name="Tab 2 page"></app-explore-container>
 </ion-content>
