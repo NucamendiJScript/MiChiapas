@@ -1,0 +1,29 @@
+.img-perfil {
+    position: absolute;
+    left: 10%;
+    top: 18%;
+    z-index: 1;
+
+    width: 30%;
+    height: auto;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    border: 3px solid #666;
+}
+
+.img-fotos {
+    width: 130px;
+    height: 100px;
+}
+
+.img-comentarios{
+    width: 10%;
+    height: auto;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    vertical-align: middle;
+}

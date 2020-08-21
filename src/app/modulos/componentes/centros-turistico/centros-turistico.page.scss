@@ -12,3 +12,7 @@
     font-size: 13pt;
     font-weight:bold;
 }
+
+.mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }

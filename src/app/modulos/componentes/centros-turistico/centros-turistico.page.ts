@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./centros-turistico.page.scss'],
 })
 export class CentrosTuristicoPage implements OnInit {
-
+  panelOpenState = false;
   constructor() { }
 
   ngOnInit() {

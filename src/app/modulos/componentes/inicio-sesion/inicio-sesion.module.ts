@@ -7,12 +7,14 @@ import { IonicModule } from '@ionic/angular';
 import { InicioSesionPageRoutingModule } from './inicio-sesion-routing.module';
 
 import { InicioSesionPage } from './inicio-sesion.page';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
+    ReactiveFormsModule,
     InicioSesionPageRoutingModule
   ],
   declarations: [InicioSesionPage]

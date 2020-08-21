@@ -1,0 +1,57 @@
+.im-class {
+    width: 100vw;
+    height: 18vh;
+    border-radius: 20px;
+}
+
+.tex-img {
+    position: relative;
+    bottom: 34px;
+    color: #fff;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 2px 10px;
+    font-size: 13pt;
+    font-weight: bold;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.text-bienvenido {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 12vw;
+}
+.parrafo-descrip {
+    padding-left: 6vw;
+    padding-right: 6vw;
+    color: #333333;
+    font-family: "Arial Black", Gadget, sans-serif; 
+    font-size: 3vw;
+}
+
+input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: grey;
+  }
+  
+  .clasificacion {
+    padding-left: 10vw;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+
+  label {
+    font-size: 30px;
+  }
+  
+ 

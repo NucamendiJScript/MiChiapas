@@ -15,6 +15,14 @@ const routes: Routes = [
     path: 'centros-turistico',
     loadChildren: () => import('./modulos/componentes/centros-turistico/centros-turistico.module').then( m => m.CentrosTuristicoPageModule)
   },
+  {
+    path: 'descripcion-turisticas',
+    loadChildren: () => import('./modulos/componentes/descripcion-turisticas/descripcion-turisticas.module').then( m => m.DescripcionTuristicasPageModule)
+  },
+  {
+    path: 'compartir-experencia',
+    loadChildren: () => import('./modulos/componentes/compartir-experencia/compartir-experencia.module').then( m => m.CompartirExperenciaPageModule)
+  },
 ];
 @NgModule({
   imports: [

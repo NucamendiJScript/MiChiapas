@@ -3,32 +3,68 @@
     <ion-buttons slot="start" style="padding-left: 6vw;">
       <img style="width: 8vw ;" src="./assets/img/logo.png" alt="">
     </ion-buttons>
-    <ion-buttons slot="end" style="padding-right: 7vw;">
+    <ion-buttons slot="end" style="padding-right: 7vw;" mat-icon-button [matMenuTriggerFor]="menu"
+      aria-label="Example icon-button with a menu">
       <i style="font-size: 180%;" class="fas fa-user-circle"></i>
-    </ion-buttons>  
-      <img style="width: 38vw; "  src="./assets/img/miChiapas1.svg" alt="">
+    </ion-buttons>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>
+        <mat-icon>account_circle</mat-icon>
+        <span>Cerrar Sesion</span>
+      </button>
+    </mat-menu>
+    <img style="width: 38vw; " src="./assets/img/miChiapas1.svg" alt="">
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-row>
     <ion-col size="12" style="text-align: center;">
-      <h1 style="font-family: Arial, Helvetica, sans-serif;" >
-       Alertas
+      <h1 style="font-family: Arial, Helvetica, sans-serif;">
+        Alertas
       </h1>
     </ion-col>
   </ion-row>
 
-<ion-content [fullscreen]="true">
+  <ion-content [fullscreen]="true">
+    <div class="accordion">
+      Section 1
+    </div>
+    
+    
+    <div class="panel">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.</p>
+    </div>
 
-  <div class="notification">
-    <span class="icon">
-        <i class=""></i>
-    </span>
-    <span class="text"></span>
-    <span class="close">
-        <i class="fa fa-close"></i>
-    </span>
-</div>
-  <app-explore-container name="Tab 1 page"></app-explore-container>
-</ion-content>
+    <div class="accordion" >
+      Section 2
+    </div>
+    <div class="panel">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.</p>
+    </div>
+    <div class="accordion" >
+      Section 3
+    </div>
+    <div class="panel">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.</p>
+    </div>
+
+    <div class="accordion" >
+      Section 4
+    </div>
+    <div class="panel">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.</p>
+    </div>
+
+    
+
+    <app-explore-container name="Tab 1 page"></app-explore-container>
+  </ion-content>
