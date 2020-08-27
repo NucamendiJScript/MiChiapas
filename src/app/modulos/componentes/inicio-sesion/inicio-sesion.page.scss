@@ -1,4 +1,20 @@
-ion-content.background{
-    --background: url("/assets/img/cañon.jpg") 0 0/100% 100% no-repeat;
-    
+
+
+h2 {
+    opacity: 0.6;
+    width: 100%;
+    text-align: center;
+    border-bottom: 0.5px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
 }
+h2 span {
+    border-radius: 50%;
+    background: #fff;
+    padding: 0 10px;
+}
+.background-image{
+    --background: url('https://i.pinimg.com/originals/83/d4/7e/83d47eb3a4bc9ecb1b51eb53ba3ab383.jpg') 0 0/100% 100% no-repeat;
+    z-index: 1;
+}
+

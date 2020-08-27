@@ -8,6 +8,7 @@ import { InicioSesionPageRoutingModule } from './inicio-sesion-routing.module';
 
 import { InicioSesionPage } from './inicio-sesion.page';
 import { ReactiveFormsModule } from '@angular/forms';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   imports: [
@@ -15,6 +16,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     FormsModule,
     IonicModule,
     ReactiveFormsModule,
+    MatCardModule,
     InicioSesionPageRoutingModule
   ],
   declarations: [InicioSesionPage]
